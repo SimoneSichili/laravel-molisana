@@ -1,0 +1,30 @@
+.bg-container {
+    padding: 50px 0;
+    background-image: url("../img/fondo-pag-speciali.jpg");
+    background-repeat: repeat;
+    .container {
+        section {
+            margin-bottom: 20px;
+            h2 {
+                margin-bottom: 10px;
+                font-size: 40px;
+                font-weight: 400;
+                color: $bluTitle;
+            }
+            .cards {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: -10px;
+                margin-right: -10px;
+                .card {
+                    width: calc(100% / 3 - 20px);
+                    margin: 10px;
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
