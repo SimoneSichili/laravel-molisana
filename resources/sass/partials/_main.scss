@@ -50,3 +50,44 @@
         }
     }
 }
+
+@media screen and (max-width: 1199px) {
+    .bg-container {
+        padding: 30px 0;
+        .container {
+            padding: 0 50px;
+            section {
+                margin-bottom: 10px;
+                h2 {
+                    margin-bottom: 10px;
+                    font-size: 30px;
+                }
+                .cards {
+                    .card {
+                        width: calc(100% / 2 - 20px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bg-container {
+        padding: 30px 0;
+        .container {
+            section {
+                margin-bottom: 20px;
+                h2 {
+                    margin-bottom: 10px;
+                    font-size: 30px;
+                }
+                .cards {
+                    .card {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

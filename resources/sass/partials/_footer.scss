@@ -36,3 +36,25 @@ footer {
         
     }
 }
+
+@media screen and (max-width: 1199px) {
+    footer {
+        padding: 50px 0 100px 0;
+        .columns {
+            display: block;
+            margin: 0;
+            padding: 0 50px;
+            .column {
+                width: 100%;
+                margin: 0;
+                &:not(:first-child) {
+                    h3 {
+                        margin: 20px 0;
+                        font-size: 24px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

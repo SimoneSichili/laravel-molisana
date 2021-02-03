@@ -8,8 +8,9 @@
 }
 
 .container {
-  width: 70%;
+  max-width: 1370px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 header {
@@ -98,6 +99,39 @@ header nav ul li a {
   opacity: 1;
 }
 
+@media screen and (max-width: 1199px) {
+  .bg-container {
+    padding: 30px 0;
+  }
+  .bg-container .container {
+    padding: 0 50px;
+  }
+  .bg-container .container section {
+    margin-bottom: 10px;
+  }
+  .bg-container .container section h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .bg-container .container section .cards .card {
+    width: calc(100% / 2 - 20px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .bg-container {
+    padding: 30px 0;
+  }
+  .bg-container .container section {
+    margin-bottom: 20px;
+  }
+  .bg-container .container section h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .bg-container .container section .cards .card {
+    width: 100%;
+  }
+}
 footer {
   padding: 100px 0 150px 0;
   background-image: url("../img/footer-montagne-bottom.jpg");
@@ -130,4 +164,23 @@ footer .columns .column:not(:first-child) ul li a {
 }
 footer .columns .column:not(:first-child) ul li a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1199px) {
+  footer {
+    padding: 50px 0 100px 0;
+  }
+  footer .columns {
+    display: block;
+    margin: 0;
+    padding: 0 50px;
+  }
+  footer .columns .column {
+    width: 100%;
+    margin: 0;
+  }
+  footer .columns .column:not(:first-child) h3 {
+    margin: 20px 0;
+    font-size: 24px;
+  }
 }
