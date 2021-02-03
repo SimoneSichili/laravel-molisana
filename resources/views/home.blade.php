@@ -9,6 +9,9 @@
                     @foreach ($lunghe as $pasta)
                         <div class="card">
                             <img src="{{ $pasta["src"] }}" alt="{{ $pasta["titolo"] }}">
+                            <div class="card-link">
+                                <a href="#">{{ $pasta["titolo"] }}</a>
+                            </div>
                         </div>            
                     @endforeach
                 </div>
@@ -19,6 +22,9 @@
                     @foreach ($corte as $pasta)
                         <div class="card">
                             <img src="{{ $pasta["src"] }}" alt="{{ $pasta["titolo"] }}">
+                            <div class="card-link">
+                                <a href="#">{{ $pasta["titolo"] }}</a>
+                            </div>
                         </div>            
                     @endforeach
                 </div>
@@ -29,6 +35,9 @@
                     @foreach ($cortissime as $pasta)
                         <div class="card">
                             <img src="{{ $pasta["src"] }}" alt="{{ $pasta["titolo"] }}">
+                            <div class="card-link">
+                                <a href="#">{{ $pasta["titolo"] }}</a>
+                            </div>
                         </div>            
                     @endforeach
                 </div>
