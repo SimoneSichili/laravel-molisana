@@ -33,7 +33,7 @@
                         left: 0;
                         width: 100%;
                         height: 100%;
-                        background-color: darken($bluColor, 20%);
+                        background-color: darken(rgba($bluColor, .7), 20%);
                         opacity: 0;
                         transition: all .3s linear;
                         a {
@@ -50,6 +50,59 @@
         }
     }
 }
+
+.product-container {
+    position: relative;
+    padding: 50px 0;
+    background-color: $bluColor;
+    text-align: center;
+    color: $bluTitle;
+    img {
+        width: 100%;
+        margin: 20px 0;
+    }
+    p {
+        text-align: left;
+        font-size: 30px;
+    }
+    .prev {
+        position: absolute;
+        top: 50%;
+        left: 30px;
+        transform: translateY(-50%);
+        z-index: 2;
+        a {
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+            &:hover {
+                color: $bluTitle;
+            }
+            i {
+                font-size: 50px;
+            }
+        }
+    }
+    .next {
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+        z-index: 2;
+        a {
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+            &:hover {
+                color: $bluTitle;
+            }
+            i {
+                font-size: 50px;
+            }
+        }
+    }
+}
+
 
 @media screen and (max-width: 1199px) {
     .bg-container {
