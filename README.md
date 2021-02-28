@@ -1,4 +1,23 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# La Molisana
+> La Molisana products page replica
+
+## Screenshoot
+![la-molisana-screenshoot](https://i.imgur.com/8Nu0oa1.png)
+
+## Technologies and libraries
+* Html
+* Css
+* Sass
+* Php
+* Laravel
+
+## Workflow
+**#1** Use a `layout` to create a page  
+**#2** Use `includes`, `yeld` and `section` to import header, footer and main content    
+**#3** Divide the elements in 3 different sections: `le lunghe`, `le corte` and `le cortissime`  
+**#4** Use `index` and `show` routes to show all elements and a single page product
+
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" width="100"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
